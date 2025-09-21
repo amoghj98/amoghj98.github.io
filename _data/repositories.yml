@@ -1,7 +1,9 @@
 github_users:
   - amoghj98
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
   - amoghj98/SHIRE
+  - amoghj98/NeuroLIFT
+  - amoghj98/neuroNav

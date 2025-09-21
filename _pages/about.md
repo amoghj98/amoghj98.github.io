@@ -8,7 +8,7 @@ profile:
   align: right
   image: dp_AmoghJoshi.JPG
   image_circular: false # crops the image to make it circular
-  more_info: >
+  more_info:
     <p>Brown Family Hall of Electrical and Computer Engineering (BHEE)</p>
     <p>465 Northwestern Ave,</p>
     <p>West Lafayette, IN 47906</p>
@@ -22,14 +22,14 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in Electrical and Computer Engineering at Purdue University Working with <a href='https://scholar.google.com/citations?user=to4P8KgAAAAJ&hl=en'>Prof. Kaushik Roy</a>. I received my B.Tech in Electronics Engineering from the University of Mumbai, India.
+I am a PhD student in Electrical and Computer Engineering at Purdue University working with <a href='https://scholar.google.com/citations?user=to4P8KgAAAAJ&hl=en'>Prof. Kaushik Roy</a>. I received my B.Tech in Electronics Engineering from the University of Mumbai, India.
 
-My doctoral research focuses on creating robust and resilient robots using bio-inspired, and physics- and human intuition- guided, Robot Learning techniques. By optimizing the robot learning pipeline, these techniques create explainable and efficient robotic control policies.
+My doctoral research focuses on creating robust and resilient robots using bio-inspired, and physics- and human intuition- guided robot learning techniques. By optimizing the robot learning pipeline, these techniques create explainable and efficient robotic control policies.
 
 I have presented a few of my research works, such as <a href='https://arxiv.org/abs/2409.09990'>'SHIRE: Enhancing Sample Efficiency using Human Intuition in REinforcement Learning'</a> at leading forums such as the 2025 IEEE International Conference on Robotics and Automation (ICRA) and the 2024 IEEE International Conference on Intelligent Robots and Systems (IROS), among others.
 

@@ -5,7 +5,7 @@ permalink: /projects/
 description: Some of the projects I have worked on and am working on!
 nav: true
 nav_order: 3
-display_categories: [Robotics, Robot Learning, Reinforcement Learning]
+display_categories: [Robot Learning, Reinforcement Learning]
 horizontal: false
 ---
 
