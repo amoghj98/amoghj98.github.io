@@ -4,13 +4,17 @@
       bibtex_show={true},
       title={Real-Time Neuromorphic Navigation: Integrating Event-Based Vision and Physics-Driven Planning on a Parrot Bebop2 Quadrotor}, 
       author={Amogh Joshi and Sourav Sanyal and Kaushik Roy},
+      booktitle={40th Anniversary of the IEEE International Conference on Robotics and Automation (ICRA@40)}, 
       year={2024},
       eprint={2407.00931},
       archivePrefix={arXiv},
       primaryClass={cs.RO},
+      selected={true},
       url={https://arxiv.org/abs/2407.00931}, 
       doi={10.48550/arXiv.2407.00931},
-      preview={https://youtu.be/9Gnjpb1k2Lo},
+      preview={demo_sys_1.png},
+      code={https://github.com/amoghj98/neuroNav},
+      video={https://www.youtube.com/watch?v=9Gnjpb1k2Lo},
       abstract={In autonomous aerial navigation, real-time and energy-efficient obstacle avoidance remains a significant challenge, especially in dynamic and complex indoor environments. This work presents a novel integration of neuromorphic event cameras with physics-driven planning algorithms implemented on a Parrot Bebop2 quadrotor. Neuromorphic event cameras, characterized by their high dynamic range and low latency, offer significant advantages over traditional frame-based systems, particularly in poor lighting conditions or during high-speed maneuvers. We use a DVS camera with a shallow Spiking Neural Network (SNN) for event-based object detection of a moving ring in real-time in an indoor lab. Further, we enhance drone control with physics-guided empirical knowledge inside a neural network training mechanism, to predict energy-efficient flight paths to fly through the moving ring. This integration results in a real-time, low-latency navigation system capable of dynamically responding to environmental changes while minimizing energy consumption. We detail our hardware setup, control loop, and modifications necessary for real-world applications, including the challenges of sensor integration without burdening the flight capabilities. Experimental results demonstrate the effectiveness of our approach in achieving robust, collision-free, and energy-efficient flight paths, showcasing the potential of neuromorphic vision and physics-driven planning in enhancing autonomous navigation systems.}
 }
 
@@ -38,7 +42,7 @@
       primaryClass={cs.RO},
       url={https://arxiv.org/abs/2502.05938}, 
       doi={10.48550/arXiv.2502.05938},
-      preview={eeplanner.png},
+      abbr={Under Review},
       abstract={Vision-based object tracking is a critical component for achieving autonomous aerial navigation, particularly for obstacle avoidance. Neuromorphic Dynamic Vision Sensors (DVS) or event cameras, inspired by biological vision, offer a promising alternative to conventional frame-based cameras. These cameras can detect changes in intensity asynchronously, even in challenging lighting conditions, with a high dynamic range and resistance to motion blur. Spiking neural networks (SNNs) are increasingly used to process these event-based signals efficiently and asynchronously. Meanwhile, physics-based artificial intelligence (AI) provides a means to incorporate systemlevel knowledge into neural networks via physical modeling. This enhances robustness, energy efficiency, and provides symbolic explainability. In this work, we present a neuromorphic navigation framework for autonomous drone navigation. The focus is on detecting and navigating through moving gates while avoiding collisions. We use event cameras for detecting moving objects through a shallow SNN architecture in an unsupervised manner. This is combined with a lightweight energy-aware physics-guided neural network (PgNN) trained with depth inputs to predict optimal flight times, generating near-minimum energy paths. The system is implemented in the Gazebo simulator and integrates a sensor-fused visionto-planning neuro-symbolic framework built with the Robot Operating System (ROS) middleware. This work highlights the future potential of integrating event-based vision with physicsguided planning for energy-efficient autonomous navigation, particularly for low-latency decision-making.}
 }
 
@@ -52,8 +56,11 @@
       volume={},
       number={},
       pages={13399-13405},
+      selected={true},
       keywords={Training;Simultaneous localization and mapping;Costs;Q-learning;Supervised learning;Pipelines;Rapid prototyping;Probabilistic logic;Encoding;Robots},
+      url={https://ieeexplore.ieee.org/document/11128459},
       doi={10.1109/ICRA55743.2025.11128459},
+      code={https://github.com/amoghj98/SHIRE},
       abstract={The ability of neural networks to perform robotic perception and control tasks such as depth and optical flow estimation, simultaneous localization and mapping (SLAM), and automatic control has led to their widespread adoption in recent years. Deep Reinforcement Learning (DeepRL) has been used extensively in these settings, as it does not have the unsustainable training costs associated with supervised learning. However, DeepRL suffers from poor sample efficiency, i.e., it requires a large number of environmental interactions to converge to an acceptable solution. Modern RL algorithms such as Deep Q Learning and Soft Actor-Critic attempt to remedy this shortcoming but can not provide the explainability required in applications such as autonomous robotics. Humans intuitively understand the long-time-horizon sequential tasks common in robotics. Properly using such intuition can make RL policies more explainable while enhancing their sample efficiency. In this work, we propose SHIRE, a novel framework for encoding human intuition using Probabilistic Graphical Models (PGMs) and using it in the Deep RL training pipeline to enhance sample efficiency. Our framework achieves 25-78% sample efficiency gains across the environments we evaluate at negligible overhead cost. Additionally, by teaching RL agents the encoded elementary behavior, SHIRE enhances policy explainability. A real-world demonstration further highlights the efficacy of policies trained using our framework.}
 }
 
@@ -68,6 +75,7 @@
       primaryClass={cs.RO},
       url={https://arxiv.org/abs/2501.19259}, 
       doi={10.48550/arXiv.2501.19259},
+      code={https://github.com/amoghj98/neuroLIFT},
       abstract={The integration of human-intuitive interactions into autonomous systems has been limited. Traditional Natural Language Processing (NLP) systems struggle with context and intent understanding, severely restricting human-robot interaction. Recent advancements in Large Language Models (LLMs) have transformed this dynamic, allowing for intuitive and highlevel communication through speech and text, and bridging the gap between human commands and robotic actions. Additionally, autonomous navigation has emerged as a central focus in robotics research, with artificial intelligence (AI) increasingly being leveraged to enhance these systems. However, existing AI-based navigation algorithms face significant challenges in latency-critical tasks where rapid decision-making is critical.Traditional frame-based vision systems, while effective for highlevel decision-making, suffer from high energy consumption and latency, limiting their applicability in real-time scenarios. Neuromorphic vision systems, combining event-based cameras and spiking neural networks (SNNs), offer a promising alternative by enabling energy-efficient, low-latency navigation. Despite their potential, real-world implementations of these systems, particularly on physical platforms such as drones, remain scarce. In this work, we present Neuro-LIFT, a realtime neuromorphic navigation framework implemented on a Parrot Bebop2 quadrotor. Leveraging an LLM for natural language processing, Neuro-LIFT translates human speech into high-level planning commands which are then autonomously executed using event-based neuromorphic vision and physicsdriven planning. Our framework demonstrates its capabilities in navigating in a dynamic environment, avoiding obstacles, and adapting to human instructions in real-time. Demonstration images of Neuro-LIFT navigating through a moving ring in an indoor setting is provided, showcasing the system’s interactive, collaborative potential in autonomous robotics}
 }
 
@@ -108,7 +116,9 @@
       volume={},
       number={},
       pages={5859-5866},
+      selected={true},
       preview={fedora.png},
       keywords={Training;Accuracy;Event detection;Tracking;Computational modeling;Cameras;Optical flow;Standards;Streams;Synthetic data},
-      doi={10.1109/IROS58592.2024.10801807}
+      doi={10.1109/IROS58592.2024.10801807},
+      abstract={The ability of resource-constrained biological systems such as fruitflies to perform complex and high-speed maneuvers in cluttered environments has been one of the prime sources of inspiration for developing vision-based autonomous systems. To emulate this capability, the perception pipeline of such systems must integrate information cues from tasks including optical flow and depth estimation, object detection and tracking, and segmentation, among others. However, the conventional approach of employing slow, synchronous inputs from standard frame-based cameras constrains these perception capabilities, particularly during high-speed maneuvers. Recently, event-based sensors have emerged as low latency and low energy alternatives to standard frame-based cameras for capturing high-speed motion, effectively speeding up perception and hence navigation. For coherence, all the perception tasks must be trained on the same input data. However, present-day datasets are curated mainly for a single or a handful of tasks and are limited in the rate of the provided ground truths. To address these limitations, we present Flying Event Dataset fOr Reactive behAviour (FEDORA) - a fully synthetic dataset for perception tasks, with raw data from frame-based cameras, event-based cameras, and Inertial Measurement Units (IMU), along with ground truths for depth, pose, and optical flow at a rate much higher than existing datasets.}
 }

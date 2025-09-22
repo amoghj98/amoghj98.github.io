@@ -6,7 +6,7 @@
     "email": "joshi157@purdue.edu",
     "phone": "(765) 701-9080",
     "url": "https://amoghj98.github.io",
-    "summary": "",
+    "summary": "PhD Student focused on explainable and efficient robot learning.",
     "location": {
       "city": "West Lafayette",
       "countryCode": "US",
@@ -27,7 +27,7 @@
   },
   "education": [
     {
-      "institution": "Purdue University",
+      "institution": "Purdue University, West Lafayette, IN",
       "area": "Electrical & Computer Engineering",
       "studyType": "Doctor of Philosophy (Ph.D.)",
       "startDate": "2021",
@@ -56,7 +56,7 @@
     {
       "name": "Indian Institute of Technology, Bombay",
       "position": "Project Research Assistant",
-      "url": "https://example.com",
+      "url": "https://www.aero.iitb.ac.in/ltasyslab/staff.html",
       "startDate": "2021-01-01",
       "endDate": "2021-08-10",
       "summary": "Designed an Tested a complete sensory avionics suite, along with various payloads for a tethered aerostat system",
@@ -66,7 +66,8 @@
   "projects": [
     {
       "name": "Neuro-LIFT: A Neuromorphic, LLM-based Interactive Framework for Autonomous Drone FlighT at the Edge",
-      "endDate": "2025-",
+      "date": "2025",
+      "url": "https://arxiv.org/abs/2501.19259",
       "description": "Designed an LLM agent to determine maneuver feasibility, and a real-time neuromorphic navigation stack to execute maneuvers deemed to be feasible.",
       "keywords": ["Neuromorphic Computing", "Large Language Models", "Event-Based Cameras", "Autonomous Drones", "Edge Computing"],
       "highlights": [
@@ -76,7 +77,20 @@
       ]
     },
     {
+      "name": "Real-Time Neuromorphic Navigation: Guiding Physical Robots with Event-Based Sensing and Task-Specific Reconfigurable Autonomy Stack",
+      "date": "2025",
+      "url": "https://arxiv.org/abs/2503.09636",
+      "description": "Designed and deployed a real-time, online neuromorphic planning and control framework on a quadrotor.",
+      "keywords": ["Neuromorphic Navigation", "Event-Based Vision", "Obstacle Detection", "Path Planning", "Robotics"],
+      "highlights": [
+        " Video available here: youtu.be/9Gnjpb1k2Lo",
+        "Presented at ICRA@40 2024"
+      ]
+    },
+    {
       "name": "SHIRE: Enhancing Sample Efficiency using Human Intuition in REinforcement Learning",
+      "date": "2024",
+      "url": "https://ieeexplore.ieee.org/document/11128459",
       "description": "Developed a framework for using task-specific human intuition to accelerate RL training and enhance explainability, achieving up to 78% and 76% sample efficiency and training time gains, respectively, over the baseline.",
       "keywords": ["Sample Efficiency", "Reinforcement Learning", "Human Intuition", "Explainability", "Robotics", "Probabilistic Graphical Models"],
       "highlights": [
@@ -86,18 +100,9 @@
       ]
     },
     {
-      "name": "Real-Time Neuromorphic Navigation: Guiding Physical Robots with Event-Based Sensing and Task-Specific Reconfigurable Autonomy Stack",
-      "year": "2023",
-      "description": "Designed and deployed a real-time, online neuromorphic planning and control framework on a quadrotor.",
-      "keywords": ["Neuromorphic Navigation", "Event-Based Vision", "Obstacle Detection", "Path Planning", "Robotics"],
-      "highlights": [
-        " Video available here: youtu.be/9Gnjpb1k2Lo",
-        "Presented at ICRA@40 2024"
-      ]
-    },
-    {
       "name": "FEDORA: A Flying Event Dataset fOr Reactive behAvior",
-      "year": "202",
+      "date": "2023",
+      "url": "https://ieeexplore.ieee.org/document/10801807",
       "description": "Developed an automatic synthetic dataset generation pipeline for a first-of-its-kind aerial navigation dataset. Dataset contains temporally dense and richly annotated ground truth for depth, optical flow, and ego-motion at data rates between 2x and 5x the state of the art across modalities.",
       "keywords": ["Synthetic dataset", "Event Cameras", "Neuromorphic Vision"],
       "highlights": [
@@ -127,7 +132,7 @@
     },
     {
       "name": "Robotics/Simulator Frameworks",
-      "keywords": ["GazeboSim", "Robot Operating System (ROS)", "MuJoCo"]
+      "keywords": ["Stable Baselines3", "GazeboSim", "Robot Operating System (ROS)", "MuJoCo"]
     }
   ],
   "courses": [
